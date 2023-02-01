@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+        .box{ 
+            width: 600px;
+            height: 300px;
+            background-color: rgb(0, 153, 255);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            padding-left: 100px;
+            margin: 200px 200px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .btn{
+            color: white;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            
+        }
+        *{
+            font-family: 'Roboto Slab', serif;
+        }
+        #input1{
+            padding: 10px 50px;
+            margin-left: 90px;
+            
+        }
+        #input2{
+            padding: 10px 50px;
+            margin-left: 90px;
+            
+        }
+        #input3{
+            padding: 10px 50px;
+            margin-left: 90px;
+        }
+        #btn{
+            padding: 8px 20px;
+            margin-left: 180px;
+        }
+        h2{
+            margin-left: 90px;
+            color: aliceblue;
+
+        }
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1;
+        }
+       
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="box">
+    <h2>simple intrest calculation</h2>
+    <input type="number" id="input1" placeholder="prinsiple amount"> <br> <br>
+    <input type="number" id="input2" placeholder="rate if intrest"> <br> <br>
+    <input type="number" id="input3" placeholder="time"> <br> <br>
+    <input type="button" value="click"  id="btn">
+    <p></p>
+    </div>
+    
+
+
+    <script src="calculator.js"></script>
+    
+</body>
+</html>
